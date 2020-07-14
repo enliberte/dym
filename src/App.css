@@ -1,0 +1,228 @@
+@import '~antd/dist/antd.css';
+
+body {
+    background: black;
+    font-family: 'Comfortaa', cursive;
+}
+
+.app-layout {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.app-header {
+    background-color: black;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.app-footer {
+    background-color: black;
+    height: 50px;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.app-footer-author {
+    text-align: center;
+    margin: -8px auto 0 auto;
+    color: white;
+}
+
+.app-header-contacts-container {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.app-header-contacts-item {
+    margin-left: 50px;
+}
+
+.app-header-title-container {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.app-header-title-item {
+    margin-left: 30px;
+}
+
+.app-header-text {
+    color: white;
+    text-decoration: none;
+}
+
+.app-header-logo {
+    margin-left: -50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.app-header-title {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.app-layout-content {
+    background: url(img/background.gif) no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content-map {
+    width: 100%;
+    height: 600px;
+}
+
+.map-container {
+    width: 1000px;
+    height: 600px;
+}
+
+.location-map {
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+}
+
+
+.app-outer {
+    width: 70%;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 400px;
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.app-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.tag-cloud {
+    flex: 1;
+}
+
+.tag-cloud > div {
+    transition: 1.4s;
+}
+
+.tag-item-wrapper {
+    cursor: pointer;
+}
+
+.tag-item-wrapper:hover {
+    z-index: 100;
+}
+
+.tag-item-wrapper:hover .tag-item-tooltip {
+    display: block;
+}
+
+.tag-item-tooltip {
+    background: #c01916;
+    color: white;
+    margin-top: 5px;
+    z-index: 100;
+    display: none;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1;
+    position: absolute;
+    min-width: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.tag-cloud-text {
+    font-family: 'Comfortaa', cursive;
+}
+
+.tobaccos-cloud {
+    margin-top: -7px;
+    width: 100%;
+    height: 500px;
+    background: black;
+    opacity: 0.7;
+    position: relative;
+}
+
+.photo-carousel-container {
+    width: 100%;
+    position: relative;
+}
+
+.prices-container {
+    background: black;
+    opacity: 0.7;
+    width: 100%;
+    position: relative;
+    height: 550px;
+}
+
+.prices-sub-container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.desc-container {
+    text-align: center;
+    top: 200px;
+    left: 100px;
+    position: absolute;
+    color: white;
+}
+
+.main-desc {
+    font-size: 40px;
+}
+
+.sub-desc {
+    font-size: 20px;
+}
+
+.desc-delimiter {
+    background-color: white;
+    border-radius: 15%;
+    height: 3px;
+    width: 100%;
+}
+
+.photo-carousel {
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+.photo-carousel-img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.price-photo {
+    height: 300px;
+}
