@@ -43,18 +43,18 @@ body {
 }
 
 .app-header-contacts-item {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .app-header-title-container {
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
 }
 
 .app-header-title-item {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .app-header-text {
