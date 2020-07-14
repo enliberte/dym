@@ -47,14 +47,14 @@ body {
 }
 
 .app-header-title-container {
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
 }
 
 .app-header-title-item {
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .app-header-text {
@@ -70,7 +70,7 @@ body {
 }
 
 .app-header-title {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 25px;
 }
 
