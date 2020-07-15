@@ -226,3 +226,13 @@ body {
 .price-photo {
     height: 300px;
 }
+
+::-webkit-scrollbar {
+    width: 5px; /* ширина для вертикального скролла */
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    box-shadow: inset 3px 3px 3px black;
+}
